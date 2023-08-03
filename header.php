@@ -1,6 +1,6 @@
 <?php session_start();
 include "dbconnection.php";
-
+error_reporting(0);
 $date = date("d/m/Y h:i:s A");
 $sql = "SELECT * FROM user WHERE id='$_SESSION[user_id]'";
 $result = mysqli_query($con,$sql);
