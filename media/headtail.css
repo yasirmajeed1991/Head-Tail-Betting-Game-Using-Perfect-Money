@@ -1,0 +1,175 @@
+/*** Coin Flip game ***/
+.coinFlip {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.coinTails, .coinHeads {
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    border: .1em solid #ffcd35;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 7px 10px 7px 10px;
+    padding: 6px;
+    width: 120px;
+}
+
+.coinHeads {
+    float: left;
+}
+
+.coinTails {
+    float: right;
+}
+
+.coinHeads a {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.coinTails a {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.coinHeads a:hover {
+    text-decoration: none;
+}
+
+.coinTails a:hover {
+    text-decoration: none;
+}
+
+div.mainRound {
+    min-height: 740px;
+    padding-bottom: 20px;
+}
+
+.coinRoundBlue {
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border: 2px solid #28AEF2;
+    border-radius: 6px;
+    display: block;
+    margin: 10px 0 0px 0;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.coinRoundBlue input {
+    width: 60px;
+}
+
+#betError {
+    color: red;
+    display: block;
+    font-size: 10pt;
+    height: 20px;
+}
+
+#betCoins {
+    height: 25%;
+    margin: 0px auto;
+    width: 40%;
+}
+
+.robot {
+    height: 300px;
+    margin: 20px;
+    width: 330px;
+}
+
+.robot div {
+    text-align: center;
+    width: 100%;
+}
+
+.roundBlue.coins {
+    font-size: 12pt;
+    margin: 0;
+    text-align: center;
+    width: 330px;
+}
+
+#flip-standing {
+    background: url(robot-standing.gif) no-repeat;
+    display: block;
+    height: 300px;
+    width: 330px;
+    z-index: 1;
+}
+
+#flip-activated {
+    background: url(robot-activated.gif) no-repeat;
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 330px;
+}
+
+#flip-head {
+    background: url(result-head.gif) no-repeat;
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 330px;
+}
+#flip-tail {
+    background: url(result-tail.gif) no-repeat;
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 330px;
+}
+#flip-heads {
+    background: url(heads-sprite.png) no-repeat;
+    background-position: 0px 300px;
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 330px;
+}
+
+#flip-tails {
+    background: url(tails-sprite.png) no-repeat;
+    background-position: 0px 300px;
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 330px;
+}
+
+#play-again,
+#result {
+    display: none;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+#play-again {
+    margin-top: 15px;
+}
+
+#play-again a {
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
