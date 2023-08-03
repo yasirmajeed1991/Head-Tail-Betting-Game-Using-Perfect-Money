@@ -57,7 +57,7 @@ Open your web browser and visit the URL where you deployed the application.
 ![Project Logo](1.png)
 ![Project Logo](2.png)
 ![Project Logo](3.png)
-![Project Logo](4.png)
+
 
 
 
